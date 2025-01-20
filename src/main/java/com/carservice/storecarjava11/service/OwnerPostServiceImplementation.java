@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class OwnerPostServiceImpl implements OwnerPostService {
+public class OwnerPostServiceImplementation implements OwnerPostService {
 
     @Autowired
     private OwnerPostRepository ownerPostRepository;
